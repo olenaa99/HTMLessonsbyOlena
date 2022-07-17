@@ -1,0 +1,58 @@
+.card{
+    width: 250px;
+    height: 400px;
+    background: lavender;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.fa-star{
+    font-size: 40px;
+    color: silver;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description > h3{
+    text-align: center;
+}
+.description > p{
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-box >button{
+    height: 50px;
+    width: 130px;
+    background: greenyellow;
+}
+
+.section1{
+    display: flex;
+    column-gap: 10px;
+}
+.section2{
+    display: flex;
+    column-gap: 10px;
+}
+.section3 {
+    display: flex;
+    column-gap: 10px;
+}
+.section4 {
+    display: flex;
+    column-gap: 10px;
+}
+.maintag{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
