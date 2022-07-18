@@ -1,0 +1,50 @@
+.wrap{
+    background: gray;
+    height: 800px;
+    width: 100%;
+}
+.a{
+    width: 100%;
+    height: 200px;
+    background: silver;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.father{
+    background: lightskyblue;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.b-box{
+    width: 75%;
+    background: darkorange;
+    height: 600px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.c{
+    background: peachpuff;
+    height: 600px;
+    width: 25%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@media screen and (max-width:1200px) {
+    .father {
+        flex-direction: column;
+    }
+    .b-box{
+        width: 100%;
+    }
+    .c{
+        width: 100%;
+    }
+}
